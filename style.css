@@ -1,0 +1,328 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav
+{
+    background-image: url(../My_Profile/assets/css-content/5g-4g.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    background-color: #edeef0; 
+    font-style: normal;
+}
+
+.logo img{
+    border-radius: 100%;
+    width: 60px;
+    height: 80px;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+
+
+.nav-link {
+    font-size: 1.8em;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+.nav-link:hover {
+    color: orangered;
+}
+
+.hmpg img
+{
+    width: 200px;
+    height: 350px;
+    margin-bottom: 20em;
+    margin-right: 10em;
+}
+
+.hmpg1 img
+{
+    width: 350px;
+    height: 350px;
+    margin-bottom: 20em;
+    margin-right:20em;
+}
+
+.hmpg-main
+{
+    color: black;
+    margin-right: 20em;
+    margin-bottom: 20em;
+}
+
+
+
+#home {
+    
+    background-image: url(../My_Profile/assets/css-content/5g-4g.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+header div p {
+    font-size: 2.5em;
+    font-weight: 200;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 800;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+#bio img {
+    width: 350px;
+    height: 280px;
+    border-radius: 50%;
+    margin: 100px;
+}
+
+#bio article * {
+    margin: 20px;
+}
+
+#bio p {
+    font-size: 2em;
+}
+
+.break {
+    display: block;
+}
+
+.link-button:hover {
+    color: white;
+}
+
+.link-button {
+    text-decoration: none;
+    text-align: center;
+    background-color: darkblue;
+    cursor: pointer;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    color: white;
+    font-size: 1.8em;
+    padding: 10px;
+    border-radius: 5%;
+    border-color: black;
+}
+
+
+
+#bio {
+    background-image: url(../My_Profile/assets/css-content/5g-4g.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    height: 660px;
+}
+
+#bio article p
+{
+    color: white;
+}
+
+.p1
+{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+
+
+#portfolio {
+    background-image: url(../My_Profile/assets/css-content/shutterstock_719504626-1024x725.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+
+
+#portfolio div {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    width: 100%;
+    height: 650px;
+}
+
+
+
+#portfolio div article {
+    background: white;
+    color: black;
+    height: 200px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+
+#portfolio div article p {
+    padding: 0 5px;
+}
+
+
+#portfolio p,
+h3,
+hr {
+    margin-bottom: 20px;
+}
+
+#portfolio p{
+    font-size: 14px;
+}
+
+
+
+#skills {
+
+    background-image: url(../My_Profile/assets/css-content/shutterstock_719504626-1024x725.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2em;
+    height: 320px;
+    padding-bottom: 20%;
+    color: white;
+}
+
+
+
+#skills-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+
+#skills ul {
+    list-style: none;
+}
+
+
+
+#skills ul li {
+    margin: 10px 0px;
+}
+
+
+
+#skills-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#skills-container>div h4{
+    font-size: 15px
+}
+
+#skills-container>div>ul li{
+    font-size: 13px;
+}
+
+
+
+.input {
+    line-height: 2em;
+    width: 350px;
+    border-radius: 3px;
+    border-color: black;
+    margin: 20px 0px;
+}
+
+
+
+#contact {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#contact form input:last-child {
+    margin: 30px;
+}
+
+
+
+.main h3{
+font-size: 18px;
+}
+
+
+
+.main h4{
+    font-size: 15px;
+}
+
+.main h2{
+    font-size: 20px;
+
+}
